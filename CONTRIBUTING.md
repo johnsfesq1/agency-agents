@@ -197,6 +197,7 @@ Advanced techniques and approaches the agent masters
 3. **Add Examples**: Include at least 2-3 code/template examples
 4. **Define Metrics**: Include specific, measurable success criteria
 5. **Proofread**: Check for typos, formatting issues, clarity
+6. **Run checks (recommended)**: `pre-commit run -a` (one-time setup: `pre-commit install`)
 
 ### Submitting Your PR
 

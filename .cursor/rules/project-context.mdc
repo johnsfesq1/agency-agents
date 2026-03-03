@@ -1,0 +1,27 @@
+---
+description: Core context + working style for the agency-agents repo
+alwaysApply: true
+---
+
+# agency-agents — Project Context
+
+## What this repo is
+
+A curated library of **AI agent profiles** (mostly Markdown) organized by division (e.g. `engineering/`, `design/`, `marketing/`). Each file is meant to be copyable and usable as an “agent persona” with clear deliverables, workflow, and success metrics.
+
+## Primary goal of changes
+
+- **Consistency**: agent files follow the same template structure and naming conventions.
+- **Quality**: clear, specific, realistic workflows and measurable success metrics.
+- **Stability**: don’t break README links / roster tables / anchors.
+
+## How to work with this repo (preferred)
+
+- **Be step-by-step**: give complete commands and explicit file paths when proposing actions.
+- **Small diffs**: avoid sweeping reformatting across many agent files unless explicitly requested.
+- **Truth over vibes**: if unsure about an existing convention, inspect existing files before deciding.
+
+## Local checks (recommended)
+
+- Run: `pre-commit run -a` (one-time setup: `pre-commit install`)
+
