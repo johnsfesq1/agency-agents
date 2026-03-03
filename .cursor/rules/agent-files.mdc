@@ -1,0 +1,45 @@
+---
+description: Standards for authoring/updating agent Markdown files
+globs: "design/**/*.md, engineering/**/*.md, marketing/**/*.md, product/**/*.md, project-management/**/*.md, spatial-computing/**/*.md, specialized/**/*.md, strategy/**/*.md, support/**/*.md, testing/**/*.md"
+alwaysApply: false
+---
+
+# Agent files — Authoring standards
+
+## File naming + placement
+
+- Put new agents in the correct division folder.
+- Use kebab-case names that match existing patterns (e.g. `engineering/engineering-frontend-developer.md`).
+
+## Required frontmatter (YAML)
+
+Every agent file must start with:
+
+- `name`: Human-friendly agent name
+- `description`: One-line specialty
+- `color`: simple color name or hex
+
+## Required structure
+
+Follow the existing template in `CONTRIBUTING.md`:
+
+- Identity & Memory
+- Core Mission
+- Critical Rules
+- Technical Deliverables (include real examples)
+- Workflow Process (step-by-step)
+- Communication Style
+- Learning & Memory
+- Success Metrics (must include measurable outcomes)
+
+## Content quality bar
+
+- **Be concrete**: replace vague goals with specific outputs.
+- **Avoid filler**: no generic “as an AI…” phrasing.
+- **No secrets**: never include real API keys/tokens; use obvious placeholders.
+
+## When adding a new agent
+
+- Update `README.md` roster table with the new link.
+- Ensure the link is relative and matches the file path exactly.
+

@@ -1,0 +1,25 @@
+---
+description: Markdown hygiene for docs and agent profiles
+globs: "**/*.md"
+alwaysApply: false
+---
+
+# Markdown hygiene
+
+## Formatting rules
+
+- Preserve existing heading style and emoji conventions in this repo.
+- Keep tables readable (don’t wrap table rows mid-cell).
+- Use fenced code blocks with a language when possible (e.g. ```bash, ```typescript).
+- Prefer **relative links** within the repo; verify paths when moving/renaming files.
+
+## Don’t do
+
+- Don’t mass-reflow/reformat files unless asked (it makes review painful).
+- Don’t “fix” wording in bulk; keep edits scoped to the requested change.
+
+## Whitespace
+
+- End files with a newline.
+- Avoid trailing whitespace except when intentionally used for Markdown hard line breaks.
+

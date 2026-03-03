@@ -8,7 +8,7 @@
 Thumbs.db
 
 # Editor directories and files
-.vscode/
+.vscode/*
 .idea/
 *.swp
 *.swo
@@ -18,6 +18,10 @@ Thumbs.db
 .settings/
 *.sublime-project
 *.sublime-workspace
+
+# Allow shared VS Code/Cursor settings (keep the rest ignored)
+!.vscode/settings.json
+!.vscode/extensions.json
 
 # Node.js (if adding web tools later)
 node_modules/

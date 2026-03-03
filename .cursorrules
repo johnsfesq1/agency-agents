@@ -1,0 +1,11 @@
+# Cursor rules (summary)
+#
+# This repo’s authoritative Cursor rules live in `.cursor/rules/*.mdc`.
+# If you’re reading this file, open those rules for the full details.
+#
+# Key expectations:
+# - Keep agent Markdown files consistent with the template in `CONTRIBUTING.md`
+# - Avoid bulk reformatting; keep diffs small and reviewable
+# - When adding an agent, update the `README.md` roster with a correct relative link
+# - Run `pre-commit run -a` (after `pre-commit install`) when making non-trivial edits
+
