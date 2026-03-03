@@ -20,6 +20,7 @@ A curated library of **AI agent profiles** (mostly Markdown) organized by divisi
 - **Be step-by-step**: give complete commands and explicit file paths when proposing actions.
 - **Small diffs**: avoid sweeping reformatting across many agent files unless explicitly requested.
 - **Truth over vibes**: if unsure about an existing convention, inspect existing files before deciding.
+- **Skills-first workflow**: before taking action, consult the project’s skill/process guidance (see `.cursor/rules/skills-superpowers.mdc`).
 
 ## Local checks (recommended)
 

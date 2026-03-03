@@ -1,0 +1,21 @@
+---
+description: Enforce skills-first workflow (/using-superpowers) in this repo
+alwaysApply: true
+---
+
+# Skills-first workflow (required)
+
+## Default rule
+
+Before you do *anything* (including asking clarifying questions), first check whether any **process skill** applies and follow it.
+
+## In practice
+
+- If the `/using-superpowers` skill is available in your environment, invoke it at the start of every session and follow it.
+- If other skills are relevant (brainstorming, debugging, verification, etc.), invoke them **before** acting.
+
+## What “done right” looks like
+
+- Skills determine *how* you proceed; user instructions determine *what* you build.
+- If a skill conflicts with a casual instinct (“this is simple”), the skill wins.
+
